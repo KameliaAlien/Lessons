@@ -1,0 +1,124 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v23-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-italic - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v23-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v23-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v23-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+body {
+	font-family: 'Open Sans';
+	background-color: black;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+header {
+	background-color: #794;
+}
+.homework {
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+	font-size: 28px;
+}
+
+main {
+	color: #fff;
+}
+h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 32px;
+	margin-bottom: 18px;
+}
+
+ol {
+	margin-left: 20px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+li {
+	padding: 12px;
+}
+
+.text {
+	font-size: 1px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copy {
+	margin: 20px 0 0 0;
+}
+
+footer {
+	background-color: #778d;
+	text-align: center;
+	padding: 32px;
+	font-size: 18px;
+}
+
+.free {
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.link-item {
+	margin: 20px 0 0 0;
+}
+.link {
+	font-size: 40px;
+	margin: 20px 0 0 0;
+	color: #fff;
+}
+
